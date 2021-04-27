@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from pprint import pprint
 
-SPOTIPY_CLIENT_ID="cb6739d4db514e5388b215e0882bf249"
-SPOTIPY_CLIENT_SECRET="0bd3f310d6e6432d80d95831ff2518ed"
+SPOTIPY_CLIENT_ID="YOUR_SPOTIPY_CLIENT_ID"
+SPOTIPY_CLIENT_SECRET="YOUR_SPOTIFY_CLIENT_SECRET"
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
@@ -49,5 +49,5 @@ for song in song_names:
 
 #TODO: 1. Scrape the Billboard Hot 100 for the songs of a particular date.✅
 #TODO: 2. Authenticate with Spotify. ✅
-#TODO: 3. Search Spotify with the scraped songs from Todo 1.
+#TODO: 3. Search Spotify with the scraped songs from Todo 1.✅
 #TODO: 4. Create and add a spotify playlist.
